@@ -59,7 +59,7 @@ I tried various combinations of parameters like orientation, pixels_per_cell and
 
 #### 3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
-I trained a linear SVM in section 7. Features used for the SVM are spatial features, histogram features ad hog features. Before fitting to the SVM, I normalized the features.
+I trained a linear SVM in section 7. Features used for the SVM are spatial features, color histogram features and hog features. Before fitting to the SVM, I normalized the features. I used GridSearchCV for carrying out an automatic parameter search for SVM tuning.
 
 ### Sliding Window Search
 
